@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,4 +7,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Handlee", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
