@@ -1,5 +1,15 @@
-import React from "react";
+import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Card5() {
-  return <div>Card5</div>;
+  return (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: 0.4, duration: 1 }}
+      className="grid place-content-center h-full text-xl md:text-4xl text-blue-100"
+    >
+      From a Telegram Stranger ...
+    </motion.div>
+  );
 }
