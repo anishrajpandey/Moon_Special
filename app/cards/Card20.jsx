@@ -8,7 +8,7 @@ export default function Card20() {
       transition={{ delay: 0.4, duration: 1 }}
       className="grid place-content-center h-full text-xl md:text-4xl text-blue-100"
     >
-      From a Telegram Stranger ...
+      like...{" "}
     </motion.div>
   );
 }

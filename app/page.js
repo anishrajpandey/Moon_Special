@@ -35,10 +35,14 @@ import Card32 from "./cards/Card32";
 import Card33 from "./cards/Card33";
 import Card34 from "./cards/Card34";
 import Card35 from "./cards/Card35";
-import { Suspense, useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { motion } from "framer-motion";
+import Card36 from "./cards/Card36";
+import Card37 from "./cards/Card37";
+import Card38 from "./cards/Card38";
 
 export default function Home() {
+  const audioRef = useRef();
   const [Count, setCount] = useState(1);
   const [isButtonDisabled, setIsButtonDisabled] = useState(true);
 
@@ -83,6 +87,9 @@ export default function Home() {
     { cardID: 33, card: <Card33 />, isVisible: false },
     { cardID: 34, card: <Card34 />, isVisible: false },
     { cardID: 35, card: <Card35 />, isVisible: false },
+    { cardID: 36, card: <Card36 />, isVisible: false },
+    { cardID: 37, card: <Card37 />, isVisible: false },
+    { cardID: 38, card: <Card38 />, isVisible: false },
     // { cardID: 19, card: <Card8 />, isVisible: false },
   ];
   useEffect(() => {
@@ -105,11 +112,15 @@ export default function Home() {
   useEffect(() => {
     setTimeout(() => {
       setIsButtonDisabled(false);
+      audioRef.current.play();
     }, 3000);
   }, []);
 
   return (
     <main className="h-screen w-screen overflow-hidden relative grid ">
+      <div className="absolute top-2 right-2 opacity-5 hover:opacity-100 transition-all">
+        <audio ref={audioRef} src="/audio.mp3" controls={true} autoPlay />
+      </div>
       <div className="">
         <MoonBackground />
         {/* </Suspense> */}
@@ -148,8 +159,9 @@ export default function Home() {
 
           {/* );
             })} */}
-          {VisibleCard.cardID}
+          {/* {VisibleCard.cardID} */}
           {/* </AnimatePresence> */}
+
           <button
             disabled={VisibleCard.cardID === 1 || isButtonDisabled}
             class="bg-blue-500 disabled:hidden

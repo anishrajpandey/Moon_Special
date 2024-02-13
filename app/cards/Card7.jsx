@@ -9,7 +9,8 @@ export default function Card6() {
       transition={{ delay: 0.4, duration: 1 }}
       className="grid place-content-center h-full text-xl md:text-4xl text-blue-100"
     >
-      From US <Image src={"/usa.svg"} width={40} height={40} alt="usa" />
+      From US Application{" "}
+      <Image src={"/usa.svg"} width={40} height={40} alt="usa" />
     </motion.div>
   );
 }

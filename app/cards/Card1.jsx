@@ -24,9 +24,6 @@ const Card1 = () => {
         alt="Hello"
         className="absolute right-0"
       />
-      {/* <div class="loader-wrapper">
-        <div class="loader"></div>
-      </div> */}
     </motion.div>
   );
 };

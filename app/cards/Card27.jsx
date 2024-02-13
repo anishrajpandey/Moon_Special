@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Emoji from "../Emoji";
 
 export default function Card27() {
   return (
@@ -8,7 +9,7 @@ export default function Card27() {
       transition={{ delay: 0.4, duration: 1 }}
       className="grid place-content-center h-full text-xl md:text-4xl text-blue-100"
     >
-      A friend...{" "}
+      who You can be Vulnerable with. <Emoji>🤍</Emoji>
     </motion.div>
   );
 }
