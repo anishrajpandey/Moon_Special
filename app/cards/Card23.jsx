@@ -12,7 +12,7 @@ export default function Card23() {
       <div className="col-span-2 h-full text-xl md:text-4xl flex flex-col justify-center items-center">
         <h1>
           {" "}
-          How a <u>Happy Day</u> looks like...
+          What a <u className="text-yellow-300">Happy Day</u> looks like..
         </h1>
         {/* The way I love you is inexplicable. It’s so much more than just wanting
         to be with you. I need you, becaus without you, something will always be

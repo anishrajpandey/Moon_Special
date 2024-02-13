@@ -112,7 +112,7 @@ export default function Home() {
   useEffect(() => {
     setTimeout(() => {
       setIsButtonDisabled(false);
-      audioRef.current.play();
+      // audioRef.current.play();
     }, 3000);
   }, []);
 

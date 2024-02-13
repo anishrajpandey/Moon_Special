@@ -12,7 +12,8 @@ export default function Card21() {
       <div className="col-span-2 h-full text-xl md:text-4xl flex flex-col justify-center items-center">
         <h1>
           {" "}
-          how <u> Worthy</u> and <u>Lucky</u> I am...
+          How <u className="text-yellow-300"> Worthy</u> and{" "}
+          <u className="text-yellow-300">Lucky</u> I am...
         </h1>
         {/* The way I love you is inexplicable. It’s so much more than just wanting
         to be with you. I need you, becaus without you, something will always be

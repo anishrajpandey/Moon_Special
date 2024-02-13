@@ -8,7 +8,7 @@ export default function Card17() {
       transition={{ delay: 0.4, duration: 1 }}
       className="grid place-content-center h-full text-xl md:text-4xl text-blue-100"
     >
-      ... that She is worth every Gem 💎
+      ... That She is worth every Gem 💎
       <h1>in the world</h1>
     </motion.div>
   );

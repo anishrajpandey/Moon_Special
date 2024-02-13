@@ -12,7 +12,7 @@ const Card2 = () => {
       Lets start. Shall we?
       <p className="text-xl text-yellow-300">
         {" "}
-        - Drag to rotate the 3D moon in the Background.{" "}
+        - Drag the Background 3D Scene to Rotate
       </p>
       <p className="text-xl text-yellow-300">
         {" "}

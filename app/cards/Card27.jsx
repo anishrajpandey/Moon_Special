@@ -9,7 +9,7 @@ export default function Card27() {
       transition={{ delay: 0.4, duration: 1 }}
       className="grid place-content-center h-full text-xl md:text-4xl text-blue-100"
     >
-      who I can be Vulnerable with. <Emoji>🤍</Emoji>
+      who I can be Vulnerable to. <Emoji>🤍</Emoji>
     </motion.div>
   );
 }
