@@ -12,7 +12,7 @@ export default function Card31() {
       <div className="col-span-1 h-full text-xl md:text-4xl flex flex-col justify-center items-center">
         <h1>
           {" "}
-          <span className="text-red-500">But, </span> The Moon on the ground is{" "}
+          <span className="text-red-500">But, </span> The Moon of BTM is{" "}
           <span className="text-yellow-300 underline"> more precious</span> to
           me.🌝🌖
         </h1>

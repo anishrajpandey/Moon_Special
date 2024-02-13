@@ -12,7 +12,7 @@ export default function Card25() {
       <div className="col-span-2 h-full text-xl md:text-4xl flex flex-col justify-center items-center">
         <h1>
           {" "}
-          How <u>Beautiful </u> Life can be, if it is with the right person.
+          How <u>Interesting </u> can Life be, with the right person.
         </h1>
         {/* The way I love you is inexplicable. It’s so much more than just wanting
         to be with you. I need you, becaus without you, something will always be

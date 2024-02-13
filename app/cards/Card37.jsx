@@ -13,6 +13,9 @@ export default function Card37() {
       Happy Valentines Day,{" "}
       <span className="text-yellow-300 font-extrabold"> Bestieeee !</span>{" "}
       <Emoji>💖</Emoji>
+      <p className="text-sm absolute bottom-0 left-1/2 -translate-x-1/2">
+        14 <sup>th</sup> Feb, 2024
+      </p>
     </motion.div>
   );
 }

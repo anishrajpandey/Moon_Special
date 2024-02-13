@@ -8,7 +8,7 @@ export default function Card11() {
       transition={{ delay: 0.4, duration: 1 }}
       className="grid place-content-center h-full text-xl md:text-4xl text-blue-100"
     >
-      ...who does not just make my heart smile,
+      ...who does not just make my heart smile 😊,
     </motion.div>
   );
 }

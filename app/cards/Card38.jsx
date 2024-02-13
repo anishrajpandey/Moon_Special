@@ -12,9 +12,11 @@ export default function Card38() {
     >
       <h1>
         I just want to see you{" "}
-        <span className="text-green-600  underline font-extrabold">Happy </span>{" "}
+        <span className="text-yellow-300  underline font-extrabold">
+          Happy{" "}
+        </span>{" "}
         and{" "}
-        <span className="text-green-600  underline font-extrabold">
+        <span className="text-yellow-300  underline font-extrabold">
           Successful{" "}
         </span>{" "}
         in Life.

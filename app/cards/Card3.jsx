@@ -8,7 +8,10 @@ export default function Card3() {
       transition={{ delay: 0.4, duration: 1 }}
       className="grid place-content-center h-full text-xl md:text-4xl text-blue-100"
     >
-      Friday, <br /> 19th January 2024
+      <h1>
+        <span className="text-yellow-300">Friday</span>, <br /> 19th January
+        2024
+      </h1>
     </motion.div>
   );
 }

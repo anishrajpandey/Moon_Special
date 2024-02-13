@@ -10,9 +10,13 @@ const Card2 = () => {
     >
       {" "}
       Lets start. Shall we?
-      <p className="text-xl text-orange-500">
+      <p className="text-xl text-yellow-300">
         {" "}
-        Drag to rotate the 3D moon in the Background.{" "}
+        - Drag to rotate the 3D moon in the Background.{" "}
+      </p>
+      <p className="text-xl text-yellow-300">
+        {" "}
+        - Control the Music from Top Right
       </p>
       {/* <div class="loader-wrapper">
         <div class="loader"></div>
