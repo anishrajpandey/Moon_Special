@@ -17,7 +17,7 @@ export default function Card4() {
         missing in this life, just out of reach. Because you make everything
         better, and everything makes sense */}
       </div>
-      <div className="bg-red-600">
+      <div>
         <Image
           src={"/telegram.png"}
           width={700}

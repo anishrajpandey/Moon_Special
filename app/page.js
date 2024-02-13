@@ -8,6 +8,33 @@ import Card5 from "./cards/Card5";
 import Card6 from "./cards/Card6";
 import Card7 from "./cards/Card7";
 import Card8 from "./cards/Card8";
+import Card9 from "./cards/Card9";
+import Card10 from "./cards/Card10";
+import Card11 from "./cards/Card11";
+import Card12 from "./cards/Card12";
+import Card13 from "./cards/Card13";
+import Card14 from "./cards/Card14";
+import Card15 from "./cards/Card15";
+import Card16 from "./cards/Card16";
+import Card17 from "./cards/Card17";
+import Card18 from "./cards/Card18";
+import Card19 from "./cards/Card19";
+import Card20 from "./cards/Card20";
+import Card21 from "./cards/Card21";
+import Card22 from "./cards/Card22";
+import Card23 from "./cards/Card23";
+import Card24 from "./cards/Card24";
+import Card25 from "./cards/Card25";
+import Card26 from "./cards/Card26";
+import Card27 from "./cards/Card27";
+import Card28 from "./cards/Card28";
+import Card29 from "./cards/Card29";
+import Card30 from "./cards/Card30";
+import Card31 from "./cards/Card31";
+import Card32 from "./cards/Card32";
+import Card33 from "./cards/Card33";
+import Card34 from "./cards/Card34";
+import Card35 from "./cards/Card35";
 import { Suspense, useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
@@ -29,6 +56,34 @@ export default function Home() {
     { cardID: 6, card: <Card6 />, isVisible: false },
     { cardID: 7, card: <Card7 />, isVisible: false },
     { cardID: 8, card: <Card8 />, isVisible: false },
+    { cardID: 9, card: <Card9 />, isVisible: false },
+    { cardID: 10, card: <Card10 />, isVisible: false },
+    { cardID: 11, card: <Card11 />, isVisible: false },
+    { cardID: 12, card: <Card12 />, isVisible: false },
+    { cardID: 13, card: <Card13 />, isVisible: false },
+    { cardID: 14, card: <Card14 />, isVisible: false },
+    { cardID: 15, card: <Card15 />, isVisible: false },
+    { cardID: 16, card: <Card16 />, isVisible: false },
+    { cardID: 17, card: <Card17 />, isVisible: false },
+    { cardID: 18, card: <Card18 />, isVisible: false },
+    { cardID: 19, card: <Card19 />, isVisible: false },
+    { cardID: 20, card: <Card20 />, isVisible: false },
+    { cardID: 21, card: <Card21 />, isVisible: false },
+    { cardID: 22, card: <Card22 />, isVisible: false },
+    { cardID: 23, card: <Card23 />, isVisible: false },
+    { cardID: 24, card: <Card24 />, isVisible: false },
+    { cardID: 25, card: <Card25 />, isVisible: false },
+    { cardID: 26, card: <Card26 />, isVisible: false },
+    { cardID: 27, card: <Card27 />, isVisible: false },
+    { cardID: 28, card: <Card28 />, isVisible: false },
+    { cardID: 29, card: <Card29 />, isVisible: false },
+    { cardID: 30, card: <Card30 />, isVisible: false },
+    { cardID: 31, card: <Card31 />, isVisible: false },
+    { cardID: 32, card: <Card32 />, isVisible: false },
+    { cardID: 33, card: <Card33 />, isVisible: false },
+    { cardID: 34, card: <Card34 />, isVisible: false },
+    { cardID: 35, card: <Card35 />, isVisible: false },
+    // { cardID: 19, card: <Card8 />, isVisible: false },
   ];
   useEffect(() => {
     setVisibleCard(cards[Count - 1]);
@@ -41,6 +96,10 @@ export default function Home() {
 
   const handleNextCard = () => {
     setCount((count) => count + 1);
+    // setCards((prev) => [...prev]);
+  };
+  const handlePreviousCard = () => {
+    setCount((count) => count - 1);
     // setCards((prev) => [...prev]);
   };
   useEffect(() => {
@@ -89,8 +148,19 @@ export default function Home() {
 
           {/* );
             })} */}
+          {VisibleCard.cardID}
           {/* </AnimatePresence> */}
-
+          <button
+            disabled={VisibleCard.cardID === 1 || isButtonDisabled}
+            class="bg-blue-500 disabled:hidden
+             absolute left-1 bottom-0 text-white active:bg-blue-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 flex gap-1 items-center"
+            type="button"
+            onClick={() => {
+              handlePreviousCard();
+            }}
+          >
+            Previous
+          </button>
           {/* ------------------------------- */}
 
           <button
