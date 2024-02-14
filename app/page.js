@@ -118,7 +118,7 @@ export default function Home() {
 
   return (
     <main className="h-screen w-screen overflow-hidden relative grid ">
-      <div className="absolute top-2 right-2 opacity-5 hover:opacity-100 transition-all">
+      <div className="absolute top-2 right-2 opacity-20 hover:opacity-100 transition-all">
         <audio ref={audioRef} src="/audio.mp3" controls={true} autoPlay />
       </div>
       <div className="">
@@ -159,7 +159,7 @@ export default function Home() {
 
           {/* );
             })} */}
-          {/* {VisibleCard.cardID} */}
+          {VisibleCard.cardID}
           {/* </AnimatePresence> */}
 
           <button
