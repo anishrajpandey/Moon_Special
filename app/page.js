@@ -64,6 +64,8 @@ export default function Home() {
     { cardID: 10, card: <Card10 />, isVisible: false },
     { cardID: 11, card: <Card11 />, isVisible: false },
     { cardID: 12, card: <Card12 />, isVisible: false },
+    { cardID: 26, card: <Card26 />, isVisible: false },
+    { cardID: 27, card: <Card27 />, isVisible: false },
     { cardID: 13, card: <Card13 />, isVisible: false },
     { cardID: 14, card: <Card14 />, isVisible: false },
     { cardID: 15, card: <Card15 />, isVisible: false },
@@ -77,8 +79,7 @@ export default function Home() {
     { cardID: 23, card: <Card23 />, isVisible: false },
     { cardID: 24, card: <Card24 />, isVisible: false },
     { cardID: 25, card: <Card25 />, isVisible: false },
-    { cardID: 26, card: <Card26 />, isVisible: false },
-    { cardID: 27, card: <Card27 />, isVisible: false },
+
     { cardID: 28, card: <Card28 />, isVisible: false },
     { cardID: 29, card: <Card29 />, isVisible: false },
     { cardID: 30, card: <Card30 />, isVisible: false },

@@ -12,8 +12,8 @@ export default function Card30() {
       <div className="col-span-1 h-full text-xl md:text-4xl flex flex-col justify-center items-center">
         <h1>
           {" "}
-          You deserve the Most precious thing:{" "}
-          <span className="text-blue-400 block font-bold ">The Moon </span>.
+          You deserve the Most precious thing in the universe:{" "}
+          <span className="text-yellow-300 block font-bold ">The Moon 🌕</span>
         </h1>
         {/* The way I love you is inexplicable. It’s so much more than just wanting
         to be with you. I need you, becaus without you, something will always be
