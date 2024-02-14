@@ -160,7 +160,7 @@ export default function Home() {
 
           {/* );
             })} */}
-          {VisibleCard.cardID}
+          {/* {VisibleCard.cardID} */}
           {/* </AnimatePresence> */}
 
           <button
